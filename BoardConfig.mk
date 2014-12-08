@@ -156,6 +156,8 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 HAVE_ADRENO_SOURCE:= false
 
+LIQUIFY=true
+
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
 
