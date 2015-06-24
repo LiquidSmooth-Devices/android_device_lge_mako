@@ -149,8 +149,13 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 HAVE_ADRENO_SOURCE:= false
 
+# Liquid Optimizations
+USE_O3 := true
+STRICT := true
+GRAPHITE := true
+LTO := true
+TARGET_ENABLE_UKM := true
 LIQUID_CHANGELOG := true
-LIQUIFY=true
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
